@@ -1,0 +1,30 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.game {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.board {
+  display: flex;
+  flex-flow: row wrap;
+  width: 95%;
+  justify-content: space-between;
+  position: relative;
+}
+
+@media (min-width: 550px) {
+  .board {
+    width: 85%;
+  }
+}
+@media (min-width: 850px) {
+  .board {
+    width: 80%;
+  }
+}
