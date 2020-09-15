@@ -9,7 +9,6 @@ class Heart extends React.Component {
 
   crossHearts() {
     if (this.props.isCrossed === true) {
-      console.log("X");
       return <div>X</div>;
     }
   }
