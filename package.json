@@ -29,7 +29,7 @@
     "sass": "^1.25.0"
   },
   "dependencies": {
-    "parcel": "^1.12.4",
+    "parcel": "^2.7.0",
     "react": "^16.12.0",
     "react-dom": "^16.12.0"
   }
